@@ -1,0 +1,14 @@
+.floatLeft { 
+    float: left; 
+    margin: 4px; 
+    padding: 10px;
+    text-align: center;
+}
+
+.floatRight { 
+    float: right; 
+    margin: 4px; 
+    padding: 10px;
+    text-align: center;
+}
+

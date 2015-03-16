@@ -1,14 +1,14 @@
 .floatLeft { 
     float: left; 
-    margin-right: 10px;
-    margin-bottom: 10px;
+    margin-right: 36px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
 .floatRight { 
     float: right; 
     margin-left: 14px; 
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -46,4 +46,12 @@ table tr th:first-child {
 table tr td:last-child,
 table tr th:last-child {
     border-right: 0;
+}
+
+h4 {
+    margin-top: 26px;
+}
+
+.sources {
+    margin-top: 60px;
 }

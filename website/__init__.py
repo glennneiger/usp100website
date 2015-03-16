@@ -29,14 +29,107 @@ def page_not_found(error):
 def index():
 	return render_template('index.html')
 
-@app.route('/1800s')
-def eighteen():
-	return render_template('1800s.html')
+@app.route('/staten')
+def trans_staten():
+	return render_template('/transportation/staten.html')
 
-@app.route('/1900s')
-def nineteen():
-	return render_template('1900s.html')
+@app.route('/ferry')
+def trans_ferry():
+	return render_template('/transportation/ferry.html')
 
-@app.route('/2000s')
-def twenty():
-	return render_template('2000s.html')
+@app.route('/publicon')
+def trans_publicon():
+	return render_template('/transportation/publicon.html')
+
+@app.route('/publicabove')
+def trans_publicabove():
+	return render_template('/transportation/publicabove.html')
+
+@app.route('/commissioners')
+def urban_commissioners():
+	return render_template('/urban/commissioners.html')
+
+@app.route('/brooklyn')
+def urban_brooklyn():
+	return render_template('/urban/brooklyn.html')
+
+@app.route('/mosesjacobs')
+def urban_mosesjacobs():
+	return render_template('/urban/mosesjacobs.html')
+
+@app.route('/freshkillspark')
+def urban_freshkillspark():
+	return render_template('/urban/freshkillspark.html')
+
+@app.route('/trash')
+def san_trash():
+	return render_template('/sanitation/trash.html')
+
+@app.route('/freshkillslandfill')
+def san_freshkillslandfill():
+	return render_template('/sanitation/freshkillslandfill.html')
+
+@app.route('/sanitationtoday')
+def san_today():
+	return render_template('/sanitation/today.html')
+
+@app.route('/mapping')
+def data_mapping():
+	return render_template('/data/mapping.html')
+
+@app.route('/innovation')
+def data_innovation():
+	return render_template('/data/innovation.html')
+
+@app.route('/greatmistake')
+def muni_brooklyn():
+	return render_template('/muni/brooklyn.html')
+
+@app.route('/chinatown')
+def muni_chinatown():
+	return render_template('/muni/chinatown.html')
+
+@app.route('/wtc')
+def project_wtc():
+	return render_template('/projects/wtc.html')
+
+@app.route('/un')
+def project_un():
+	return render_template('/projects/un.html')
+
+@app.route('/zoningpion')
+def zoninghousing_zoningpion():
+	return render_template('/zoninghousing/zoningpion.html')
+
+@app.route('/lower')
+def zoninghousing_lower():
+	return render_template('/zoninghousing/lower.html')
+
+@app.route('/housingact')
+def zoninghousing_housingact():
+	return render_template('/zoninghousing/housingact.html')
+
+@app.route('/zoningreso')
+def zoninghousing_zoningreso():
+	return render_template('/zoninghousing/zoningreso.html')
+
+@app.route('/plannyc')
+def future_plannyc():
+	return render_template('/future/plannyc.html')
+
+@app.route('/borough')
+def future_borough():
+	return render_template('/future/borough.html')
+
+@app.route('/plan')
+def future_plan():
+	return render_template('/future/plan.html')
+
+# @app.route('/greenyc')
+# def future_greenyc():
+# 	return render_template('/future/greenyc.html')
+
+# @app.route('/future')
+# def future_future():
+# 	return render_template('/future/future.html')
+

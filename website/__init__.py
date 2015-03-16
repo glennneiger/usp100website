@@ -29,6 +29,10 @@ def page_not_found(error):
 def index():
 	return render_template('index.html')
 
+@app.route('/timeline')
+def timetine():
+	return render_template('timeline.html')
+
 @app.route('/staten')
 def trans_staten():
 	return render_template('/transportation/staten.html')

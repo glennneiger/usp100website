@@ -33,6 +33,10 @@ def index():
 def trans_staten():
 	return render_template('/transportation/staten.html')
 
+@app.route('/subway')
+def trans_subway():
+	return render_template('/transportation/subway.html')
+
 @app.route('/ferry')
 def trans_ferry():
 	return render_template('/transportation/ferry.html')
@@ -125,11 +129,19 @@ def future_borough():
 def future_plan():
 	return render_template('/future/plan.html')
 
+@app.route('/abib')
+def abib():
+	return render_template('abib.html')
+
+@app.route('/images')
+def images():
+	return render_template('images.html')
+
 # @app.route('/greenyc')
 # def future_greenyc():
 # 	return render_template('/future/greenyc.html')
 
-# @app.route('/future')
-# def future_future():
-# 	return render_template('/future/future.html')
+@app.route('/onecity')
+def future_onecity():
+	return render_template('/future/onecity.html')
 

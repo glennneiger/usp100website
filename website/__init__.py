@@ -141,6 +141,7 @@ def abib():
 def images():
 	return render_template('images.html')
 
+# asdfsadf
 # @app.route('/greenyc')
 # def future_greenyc():
 # 	return render_template('/future/greenyc.html')
